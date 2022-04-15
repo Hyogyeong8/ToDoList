@@ -8,7 +8,6 @@
 }
 
 .card {
-  /* position: absolute; */
   padding: 20px 40px;
   margin: 5px 100px;
   border: 1px solid black;
@@ -17,72 +16,7 @@
   line-height: 2rem;
 }
 
-.textInput input {
-  width: 100%;
-  height: 2rem;
-  font-size: 16px;
-}
-
-textarea {
-  width: 100%;
-  padding: 0.5rem 0.2rem;
-  font-size: 16px;
-  resize: none;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-.radioInput {
-  display: inline-block;
-  white-space: pre-wrap;
-}
-
 button {
   font-size: 16px;
   margin-top: 8px;
 }
-
-.mode{
-  background-color: gainsboro;
-  border: 0;
-}
-
-.title {
-  padding: 0px 10px;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.due {
-  padding: 0px 50px;
-  text-align: right;
-  color: gray;
-  line-height: 1rem;
-  align-items: baseline;
-}
-
-.importance {
-  background-color: gainsboro;
-  border-radius: 8px;
-  font-size: 13px;
-  padding: 3px;
-}
-
-.desc {
-  white-space: pre-wrap;
-  text-align: left;
-}
-
-/* .importance input[type="radio"] {
-  display:none;
-}
-
-.importance input[type="radio"]+label {
-  padding: 0.5rem;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.importance input[type="radio"]:checked+label {
-  background-color: silver;
-} */

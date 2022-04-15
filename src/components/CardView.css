@@ -1,0 +1,31 @@
+
+.mode{
+  background-color: gainsboro;
+  border: 1px solid gainsboro;
+}
+
+.title {
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.due {
+  padding: 0px 50px;
+  text-align: right;
+  color: gray;
+  line-height: 1rem;
+  align-items: baseline;
+}
+
+.importance {
+  background-color: gainsboro;
+  border-radius: 8px;
+  font-size: 13px;
+  padding: 3px;
+}
+
+.desc {
+  white-space: pre-wrap;
+  text-align: left;
+}
